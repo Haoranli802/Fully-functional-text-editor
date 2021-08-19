@@ -64,6 +64,26 @@ Luckily, this project also contains automatic tests provided by both the profess
 
 Implementation instructions: 
 
-The project files are in the app folder. The main.cpp is the execution file, as always.
+The gtests files should be in the gtest folder.
 
-The gtests files are in the gtest folder.
+The gtests files are:
+
+BooEditTests.cpp
+
+gtestmain.cpp
+
+InvisibleEditorView.hpp
+
+MockInteractionReader.cpp
+
+MockInteractionReader.hpp
+
+MockKeypressReader.cpp
+
+MockKeypressReader.hpp
+
+NoMoreKeypressesException.hpp
+
+The project files should be in the app folder. The main.cpp is the execution file, as always.
+
+All files besides the gtest files are the project files. 
